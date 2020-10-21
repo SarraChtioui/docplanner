@@ -1,0 +1,129 @@
+nav{
+  display:flex !important;
+  justify-content: space-around;
+  position: sticky;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.logo{
+width: 220px;
+}
+.Links{
+display:flex;
+justify-content: space-around;
+text-decoration: none;
+padding: 0.6em   
+}
+.items{
+margin-left: 15px;
+}
+.Links a{
+text-decoration: none;
+color: grey;
+display:inline-block;
+}
+.Links li{
+list-style: none;
+}
+.presentation{
+display:flex;
+margin: 0 auto;
+background-color: transparent;
+align-items:center;
+flex-direction: column;
+}
+.information{
+display: flex;
+
+}
+.img-h1{
+margin:20px 0;
+}
+#h1{
+display:center;
+float:center;
+font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+color:#00b39b;
+justify-content:center;
+}
+.description{
+margin:20px 0;
+padding:5px;
+line-height:25px;
+}
+.box{
+padding: 20px ;
+display:flex;
+justify-content: center;
+}
+.greenbox{
+background-color:#00b39b;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+margin: 30px;
+padding: 40px;
+width: 35%;
+position:relative;
+border-radius:10px;
+overflow:hidden;
+text-shadow:none;}
+.bluebox{
+background-color: #3d83df;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+margin: 30px;
+padding: 40px;
+width: 35%;
+position:relative;
+border-radius:10px;
+overflow:hidden;
+text-shadow:none;
+}
+.screen1{
+position:absolute;
+font-weight:400;
+}
+.screen2{
+position:absolute;
+font-weight:400;
+}
+.texlink{
+display:flex;
+justify-content:space-between;
+}
+
+:after, :before {
+box-sizing: inherit;
+color: gray;}
+
+.subtitle{
+color:#00b39b;
+font-size: 1.625em;
+padding:50px;
+font-size: 0;
+width: 67%;
+zoom: 1;
+max-width: 1015px;
+padding: 0 20px;
+margin: 0 auto;
+position: relative;
+}
+ul{
+display:flex;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+list-style: none;
+font-weight: 400;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+color:gray;
+}
+.Links2{
+position:relative;
+zoom: 1;
+max-width: 1015px;
+padding: 0 20px;
+margin: 0 auto;
+}
